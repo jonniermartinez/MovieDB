@@ -1,4 +1,4 @@
-process.env.API_KEY
+const TOKEN = process.env.API_KEY
 
 
 const api = axios.create({

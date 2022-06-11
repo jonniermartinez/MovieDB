@@ -106,3 +106,4 @@ dist
 # secrets.js (API KEY)
 src/secrets.js
 API_KEY.env
+.env.development

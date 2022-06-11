@@ -1,5 +1,5 @@
-const API_KEY = import.meta.env.API_KEY_SECRET;
-console.log(API_KEY)
+process.env.API_KEY
+
 
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',

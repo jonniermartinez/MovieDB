@@ -1,5 +1,5 @@
-import TOKEN from './config.js';
-console.log(TOKEN)
+const API_KEY = import.meta.env.API_KEY_SECRET;
+console.log(API_KEY)
 
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',

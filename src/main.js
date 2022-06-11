@@ -1,5 +1,3 @@
-const API_KEY = import.meta.env.API_KEY;
-
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',
     headers: {
@@ -51,5 +49,5 @@ async function getCategoriesMoviesPreview () {
         PreviewCategoriesContainer.appendChild(categoryContainer);
     });
 }
-//getTrendingMoviesPreview();
-// getCategoriesMoviesPreview ();
+getTrendingMoviesPreview();
+getCategoriesMoviesPreview ();

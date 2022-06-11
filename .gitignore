@@ -107,3 +107,4 @@ dist
 src/secrets.js
 API_KEY.env
 .env.development
+src/config.js

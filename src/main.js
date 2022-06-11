@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',
     headers: {
@@ -31,7 +33,7 @@ async function getTrendingMoviesPreview () {
 async function getCategoriesMoviesPreview () {
     const { data } = await api('genre/movie/list');
     const categories = data.genres;
-    
+
     categories.forEach(category => {
         const PreviewCategoriesContainer = document.querySelector('#categoriesPreview .categoriesPreview-list');
         

@@ -1,4 +1,6 @@
-import("./config")
+import './config.js'
+import TOKEN from './config.js';
+console.log(TOKEN)
 
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',
@@ -6,7 +8,7 @@ const api = axios.create({
         'Content-Type': 'application/json;charset=utf-8',
     },
     params: {
-       'api_key': API_KEY,
+       'api_key': TOKEN,
     },
 });
 

@@ -1,8 +1,3 @@
-
-import '../../config.js'
-import TOKEN from './config.js';
-console.log(TOKEN)
-
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',
     headers: {

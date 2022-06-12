@@ -108,3 +108,8 @@ src/secrets.js
 API_KEY.env
 .env.development
 src/config.js
+.env
+.env.me
+.env.vault
+!.env.project
+!.env.vault

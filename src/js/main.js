@@ -1,5 +1,4 @@
-const TOKEN = process.env.API_KEY
-
+require('dotenv').config()
 
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',
@@ -7,7 +6,7 @@ const api = axios.create({
         'Content-Type': 'application/json;charset=utf-8',
     },
     params: {
-       'api_key': TOKEN,
+       'api_key': API_KEY,
     },
 });
 

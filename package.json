@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "http-server . -p 8080",
-    "netlify": "./node_modules/.bin/netlify"
+    "netlify": "netlify"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "url": "https://github.com/jonniermartinez/MovieDB/issues"
   },
   "homepage": "https://github.com/jonniermartinez/MovieDB#readme",
+  "keywords": [],
   "dependencies": {
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.1"
   }
 }

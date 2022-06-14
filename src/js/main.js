@@ -1,9 +1,3 @@
-require('dotenv').config();
-
-//console.log(process.env.API_KEY)
-
-API_PRIVATE_KEY = process.env.API_KEY
-
 
 const api = axios.create({
     baseURL: 'https://api.themoviedb.org/3/',

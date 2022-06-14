@@ -113,5 +113,5 @@ js/config.js
 .env.vault
 !.env.project
 !.env.vault
-
+api.js
 secrets.js
